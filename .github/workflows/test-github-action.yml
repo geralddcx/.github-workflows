@@ -34,7 +34,7 @@ jobs:
 
       - name: run POSTMAN Collection
         run: |
-         newman run "Projet 1 - API GitHub V5.postman_collection.json" -e "Test Project 1N.postman_environment.json" -r cli,htmlextra
+         newman run "Projet_1_API_GitHub_V5.postman_collection.json" --environment "Test_Project _N.postman_environment.json" -r cli,htmlextra
       
       # - name: Output the run Details
       #   uses: actions/upload-artifacts@v2
